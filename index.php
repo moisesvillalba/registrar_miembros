@@ -74,7 +74,7 @@ $logias = [
     "A∴R∴L∴ Caballeros de la Luz"
 ];
 
-$ciudades = ["Asunción", "Ciudad del Este", "Encarnación", "San Lorenzo", "Luque", "Capiatá"];
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -303,12 +303,7 @@ $ciudades = ["Asunción", "Ciudad del Este", "Encarnación", "San Lorenzo", "Luq
                 <div class="form-row">
                     <div class="form-group">
                         <label for="ciudad">Ciudad:<span class="required">*</span></label>
-                        <select id="ciudad" name="ciudad" class="form-control" required>
-                            <option value="">Seleccione ciudad</option>
-                            <?php foreach ($ciudades as $ciudad): ?>
-                                <option value="<?php echo $ciudad; ?>"><?php echo $ciudad; ?></option>
-                            <?php endforeach; ?>
-                        </select>
+                        <input type="text" id="ciudad" name="ciudad" class="form-control" required placeholder="Ingrese su ciudad">
                     </div>
                     <div class="form-group">
                         <label for="barrio">Barrio:<span class="required">*</span></label>
