@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Mi Servidor Funciona!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Hola desde mi Servidor!</h1>
+        <p>Si estás viendo esta página, significa que tu servidor web está funcionando correctamente.</p>
+        <p>¡Felicidades, el HTML básico se está sirviendo correctamente!</p>
+        <p>Hora actual del servidor (si el servidor la proporciona, de lo contrario, ignora esta línea): <span id="serverTime">Cargando...</span></p>
+    </div>
+
+    <script>
+        // Opcional: Intenta mostrar la hora actual usando JavaScript
+        // Esto solo mostrará la hora del cliente, no la del servidor a menos que el servidor la envíe.
+        // Para la hora real del servidor, necesitarías un script del lado del servidor (PHP, Node.js, Python, etc.)
+        document.getElementById('serverTime').innerText = new Date().toLocaleString('es-ES', {
+            weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+            hour: '2-digit', minute: '2-digit', second: '2-digit'
+        });
+    </script>
+</body>
+</html>

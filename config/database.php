@@ -20,10 +20,14 @@ class Database
     public function __construct()
     {
         // Credenciales para Byethost
-        $this->host = "sql111.byethost3.com";
-        $this->db_name = "b3_38781053_sistema_registro";
-        $this->username = "b3_38781053";
-        $this->password = "s8Fg\$mHNh#CL#kn";
+        // $this->host = "sql111.byethost3.com";
+        // $this->db_name = "b3_38781053_sistema_registro";
+        // $this->username = "b3_38781053";
+        // $this->password = "s8Fg\$mHNh#CL#kn";
+        $this->host = "localhost";
+        $this->db_name = "c2670677_reg";
+        $this->username = "c2670677_reg";
+        $this->password = "86lataNObu";
         $this->conn = null;
         $this->connection_error = null;
         $this->last_error = null;
