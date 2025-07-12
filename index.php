@@ -37,7 +37,7 @@ $logias = [
     "A∴R∴L∴ Cosmos Nº 7",
     "A∴R∴L∴ Phoenix Nº 8",
     "A∴R∴L∴ 777 Nº 9",
-	    // Logias adicionales que faltan
+    // Logias adicionales que faltan
     "A∴R∴L∴ Orden de Melquisedec Nº 10",
     "A∴R∴L∴ Hermética Nº 11",
     "A∴R∴L∴ 666 Lucero del Alba Nº 12",
@@ -71,7 +71,8 @@ $logias = [
     "A∴R∴L∴ Hermandad Pitagórica Nº 531",
     "A∴R∴L∴ Paraná Nº 717",
     "A∴R∴L∴ Orden del Temple Nº 775",
-    "A∴R∴L∴ Caballeros de la Luz"
+    "A∴R∴L∴ Caballeros de la Luz",
+    "A∴R∴L∴ Centauros Nº 999",
 ];
 
 
